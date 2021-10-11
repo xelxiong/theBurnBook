@@ -1,0 +1,117 @@
+html {
+    background-color:lightpink;  
+    background-image: url("images/boxed.png");
+}
+header h1 {
+    font-family: 'Sacramento', cursive, "Times New Roman", sans-serif;
+    font-size: 400%;
+    text-shadow: 4px 4px hotpink;
+    text-align: center;
+}
+body {
+    width: 90%;
+    margin: 15px auto;
+    border: 1px solid black;
+}
+aside {
+    width: 33%;
+    float: right;
+    font-family: 'Cherry Swash', cursive, "Times New Roman", sans-serif;
+    font-size: 115%;
+}
+aside h1 {
+    font-family: 'Pacifico', cursive, "Times New Roman", sans-serif;
+    font-size: 200%;
+    text-shadow: 4px 4px hotpink;
+    text-align: center;
+}
+aside h2 {
+    font-family: 'Pacifico', cursive, "Times New Roman", sans-serif;
+    font-size: 200%;
+    text-shadow: 4px 4px hotpink;
+    text-align: center;
+}
+aside h3 {
+    font-family: 'Pacifico', cursive, "Times New Roman", sans-serif;
+    font-size: 200%;
+    text-shadow: 4px 4px hotpink;
+    text-align: center;
+}
+#nav_menu ul {
+    list-style-type: none;
+    padding: 0em 0;
+    text-align: center;
+    border-top: 1px solid black;
+    
+}
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1.5em;
+}
+#nav_menu ul li a {
+    font-weight: bold;
+    color: hotpink;
+    font-family: 'Pacifico', cursive;
+    font-size: 180%;
+}
+#nav_menu ul li a.current { text-decoration: none; }
+
+main {
+    width: 66%;
+    height: 350px;
+    float: left;
+    font-family: 'Cherry Swash', cursive, "Times New Roman", sans-serif;
+    font-size: 115%;
+}
+
+main h2 {
+    font-family: 'Pacifico', cursive, "Times New Roman", sans-serif;
+    color: deeppink;
+    font-size: 200%;
+}
+main h3 {
+    font-family: 'Pacifico', cursive, "Times New Roman", sans-serif;
+    font-size: 150%;
+    color: deeppink;
+}
+main h4 {
+    color: deeppink;
+}
+main img {
+    float: right;
+    margin-left: 1em; 
+}
+section h3 {
+    font-family: 'Pacifico', cursive, "Times New Roman", sans-serif;
+    font-size: 140%;
+    color: deeppink;
+}
+section h4 {
+    font-family: 'Pacifico', cursive, "Times New Roman", sans-serif;
+    color: deeppink;
+}
+
+section img {
+    float: none;
+    margin-right: 1em;
+}
+section {
+   font-family: 'Cherry Swash', cursive, "Times New Roman", sans-serif;
+}
+section h2 {
+    font-family: 'Pacifico', cursive, "Times New Roman", sans-serif;
+    color: deeppink;
+}
+article {
+    column-count: 3;
+    column-gap: 35px;
+    column-rule: 2px solid black;
+}
+footer {
+    height: auto;
+    align-items: center;
+    justify-items: center;
+    font-size: 80%;
+    font-family: sans-serif;
+    color: blue;
+}
